@@ -30,8 +30,8 @@
                 background-color: #471b00;
             }
             footer{
-                color: white;
-                background-color: #823919;
+                color: rgb(231, 231, 231);
+                background-color: #552f21;
                 margin: -10px -10px;
                 padding: 5px 20px;
             }
@@ -40,9 +40,15 @@
                 min-width: 100px;
                 max-width: 500px; 
                 /* max-width: 500px; */
-                border-radius: 10%;
-                box-shadow: 7px 5px ;color:rgb(121, 102, 90);
+                border-radius: 100px;
+                box-shadow: 7px 5px 5px 5px;color:rgb(94, 80, 72);
                 /* position: absolute; */
+            }
+            .Celebrity{
+                width: 400px;
+                border-radius: 150px;
+                box-shadow: 7px 5px 5px 5px; color: rgb(94, 80, 72);
+                margin-left: 30px;
             }
             .Name{
                 font-weight:bolder;
@@ -56,7 +62,11 @@
                 margin-top: 100px;
                 margin-bottom: 100px;
             }
-            #birth{
+            .Fav_Cel{
+                text-align: right;
+                margin-bottom: 200px;
+            }
+            .birth{
                 font-size: 50%;
             }
             #Sign{
@@ -85,18 +95,30 @@
                 <div class="Profile_Info">
                     <h1>Profile</h1>
                     <h2>Name : 김장환</h2>
-                    <h2>Age : 21 <span id="birth">(birth : 2004 - Nov - 25th)</span></h2>
+                    <h2>Age : 21 <span class="birth">(birth : 2004 - Nov - 25th)</span></h2>
                     <h2 style="margin-bottom: 0;">Daelim University - Application SW</h2>
                     <h3 style="margin-top: 5px;">(freshman)</h3>
                 </div>
             </div>
-            
+
+
+            <br><br><br><br><br>
+
+
             <div>
                 <div>
-                    <!-- 이미지 -->
+                    <img src="Rize.jpg" alt="" align="right" class="Celebrity">
                 </div>
-                <div>
+                <div class="Fav_Cel">
                     <!-- 글자 -->
+                    <br><br>
+                    <h1>Favorite Celebrity</h1>
+                    <br>
+                    <h2>Name : RIIZE - WONBIN</h2>
+                    <h2>Age : 23 <span class="birth">(birth : 2002 - Mar - 2th)</span></h2>
+                    <br>
+                    <h2>Debut : 2023 - Oct - 4th</h2>
+                    <h2>SM Entertainment</h2>
                 </div>
             </div>
             
