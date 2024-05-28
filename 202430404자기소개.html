@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>잘못 수정을 해버림!!</title>
+        <title>202430404 김장환 자기소개 웹 페이지</title>
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
@@ -13,34 +13,90 @@
             
             body{
                 font-family: "Noto Serif KR", serif;
-                text-align: center;
+                /* text-align: center; */
                 background-color: rgb(223, 217, 193);
                 color: #471b00
-                
             }
             h1{
                 font-size: 50px;
+                font-weight: 500;
+            }
+            h2{
+                font-size: 30px;
+            }
+            header{
+                margin-top: 40px; margin-bottom: 100px;
+            }
+            hr{
+                height: 2px;
+                background-color: #471b00;
+            }
+            footer{
+                color: white;
+                background-color: #823919;
             }
             .Selfie_1 {
+                margin-left: 100px;
                 border-radius: 10%;
+                box-shadow: 7px 5px ;color:rgb(121, 102, 90);
+            }
+            .Name{
+                font-weight:bolder;
+            }
+            .Title{
+                text-align: center;
+                margin: 130px 0px;
+            }
+            .Profile{
+                /* background-color: beige; */
+                width: 550px;
+                /* background-color: red; */
+                margin-left: 650px;
+                text-align: center;
             }
         </style>
 
     </head>
 
     <body>
-        <br>
-        <br>
         <header>
-            <h1>Hello! &nbsp;I am &nbsp;Hwan</h1>
-            <h2>asdasd 김장환</h2>
+            <hr>
+            <div class="Title">
+                <h1>Hello! &nbsp;I am &nbsp;<span class="Name">Hwan</span></h1>
+            </div>
+            <hr>
         </header>
-        <img src="Selfie.jpg" alt="" width="500px" class="Selfie_1">
-        <br>
-        <img src="Sign.png" width="300px">
-        <p>안녕하세요!</p>
-    </body>
 
+        <section>
+
+            <header style="float: left; margin-top: 200px;">
+                <img src="Selfie.jpg" alt="" width="500px"  class="Selfie_1">
+            </header>
+            
+            <article class="Profile">
+                <br><br><br><br><br><br><br>
+                <h1>Profile</h1>
+                <h2>Name : 김장환</h2>
+                <h2>Age : 21</h2>
+                <h2>Daelim University - Application SW</h2>
+                <h3>(freshman)</h3>
+                
+            </article>
+            
+        </section>
+        
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <p>안녕하세요!</p>
+
+
+        <footer>
+            <p>원평노블레스 (주) | 010 - 4909 - 5893 | kll5893@gmail.com</p>
+            <p>경기도 안양시 만안구 만안로 259 (우) 13991</p>
+            <p>VsCode 만세</p>
+            <img src="Sign.png" width="300px">
+        </footer>
+    </body>
+    
 
 
 </html>
