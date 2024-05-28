@@ -10,10 +10,11 @@
         </style>
 
         <style>
-            
             body{
+                width: 80%;
                 font-family: "Noto Serif KR", serif;
                 /* text-align: center; */
+                margin-left: 10%; margin-right: 10%;
                 background-color: rgb(223, 217, 193);
                 color: #471b00
             }
@@ -24,9 +25,6 @@
             h2{
                 font-size: 30px;
             }
-            header{
-                margin-top: 40px; margin-bottom: 100px;
-            }
             hr{
                 height: 2px;
                 background-color: #471b00;
@@ -34,25 +32,36 @@
             footer{
                 color: white;
                 background-color: #823919;
+                margin: -10px -10px;
+                padding: 5px 20px;
             }
             .Selfie_1 {
-                margin-left: 100px;
+                margin-right: 30px;
+                min-width: 100px;
+                max-width: 500px; 
+                /* max-width: 500px; */
                 border-radius: 10%;
                 box-shadow: 7px 5px ;color:rgb(121, 102, 90);
+                /* position: absolute; */
             }
             .Name{
                 font-weight:bolder;
             }
             .Title{
                 text-align: center;
-                margin: 130px 0px;
+                margin-top: 130px; margin-bottom: 130px;
             }
-            .Profile{
-                /* background-color: beige; */
-                width: 550px;
-                /* background-color: red; */
-                margin-left: 650px;
-                text-align: center;
+
+            .Profile_Info{
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+            #birth{
+                font-size: 50%;
+            }
+            #Sign{
+                width: 300px;
+                float: right;
             }
         </style>
 
@@ -69,31 +78,43 @@
 
         <section>
 
-            <header style="float: left; margin-top: 200px;">
-                <img src="Selfie.jpg" alt="" width="500px"  class="Selfie_1">
-            </header>
+            <div>
+                <div style="float: left;">
+                    <img src="Selfie.jpg" alt="셀카.png"  class="Selfie_1">
+                </div>
+                <div class="Profile_Info">
+                    <h1>Profile</h1>
+                    <h2>Name : 김장환</h2>
+                    <h2>Age : 21 <span id="birth">(birth : 2004 - Nov - 25th)</span></h2>
+                    <h2 style="margin-bottom: 0;">Daelim University - Application SW</h2>
+                    <h3 style="margin-top: 5px;">(freshman)</h3>
+                </div>
+            </div>
             
-            <article class="Profile">
-                <br><br><br><br><br><br><br>
-                <h1>Profile</h1>
-                <h2>Name : 김장환</h2>
-                <h2>Age : 21</h2>
-                <h2>Daelim University - Application SW</h2>
-                <h3>(freshman)</h3>
-                
-            </article>
+            <div>
+                <div>
+                    <!-- 이미지 -->
+                </div>
+                <div>
+                    <!-- 글자 -->
+                </div>
+            </div>
             
         </section>
         
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <p>안녕하세요!</p>
+        <!-- <br><br><br><br><br><br><br><br><br><br><br>
+        <p>안녕하세요!</p> -->
 
 
         <footer>
-            <p>원평노블레스 (주) | 010 - 4909 - 5893 | kll5893@gmail.com</p>
+            <p>원평노블레스 (주) | 010 - 4909 - 5893 | kll5893@gmail.com <span style="float: right; margin-right: 30px;">전자서명</span></p>
+            <img src="Sign.png" id="Sign">
             <p>경기도 안양시 만안구 만안로 259 (우) 13991</p>
-            <p>VsCode 만세</p>
-            <img src="Sign.png" width="300px">
+            <p>웹페이지 만드는거 재밌네요 ㅎ</p>
+            <p>역시 이론보다는 실습이죠~!</p>
+            <p>죄송합니다 농담 한번 해봤습니다.</p>
+            <br>
+            
         </footer>
     </body>
     
